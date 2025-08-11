@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>19:AM - Tienda de Ropa</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>19:AM</header>
+
+<nav>
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <ul class="menu" id="menu">
+    <li><a href="#">Oversize</a></li>
+    <li><a href="#">Shorts</a></li>
+    <li><a href="#">Conjuntos</a></li>
+    <li><a href="#">Sobre Nosotros</a></li>
+    <li><a href="#">Contáctanos</a></li>
+  </ul>
+</nav>
+
+<section class="products">
+  <div class="product">Imagen Camisa 1</div>
+  <div class="product">Imagen Camisa 2</div>
+</section>
+
+<button class="cart-button" onclick="toggleCart()">🛒</button>
+
+<div class="cart-panel" id="cartPanel">
+  <h3>Carrito de Compras</h3>
+  <p>Tu carrito está vacío.</p>
+</div>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
